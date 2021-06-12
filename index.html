@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>BC12 - Vu Quoc Huy - BÀI TẬP JS - BUỔI 5</h2>
+
+    <h3>BÀI 1 - QUẢN LÝ TUYỂN SINH</h3>
+    <div id="divDiem">
+        <label for="">Nhập điểm chuẩn của hội đồng:</label><br>
+        <input type="number" id="ipDiemChuan"><br><br>
+        <label for="">Nhập điểm 3 môn của sinh viên:</label><br>
+        <label for="">Môn 1: </label>
+        <input type="number" id="ipDiemMon1"><br>
+        <label for="">Môn 2: </label>
+        <input type="number" id="ipDiemMon2"><br>
+        <label for="">Môn 3: </label>
+        <input type="number" id="ipDiemMon3"><br>
+    </div><br>
+    <div id="divKhuVuc">
+        <label for="">Nhập khu vực - A, B, C hoặc X (nếu không thuộc khu vực nào)</label><br>
+        <input type="text" id="ipKhuVuc"><br>
+        <p id="xuatLoiKhuVuc"></p>
+    </div><br>
+    <div id="divDoiTuong">
+        <label for="">Nhập đối tượng - 1, 2, 3 hoặc 0 (nếu không thuộc đối tượng ưu tiên nào)</label><br>
+        <input type="number" id="ipDoiTuong"><br>
+        <p id="xuatLoiDoiTuong"></p>
+    </div><br>
+
+    <button id="btnSubmit">XÁC ĐỊNH</button><br>
+    <p id="xuatDauRot"></p>
+    <p id="xuatDiem"></p>
+    <br><br>
+
+
+    <h3>BÀI 2 - TÍNH TIỀN ĐIỆN</h3>
+    <label for="">Nhập tên chủ hộ:</label><br>
+    <input type="text" id="ipTen"><br><br>
+    <label for="">Nhập số KW điện tiêu thụ:</label><br>
+    <input type="number" id="ipSoKW"><br><br>
+    <button id="btnTinhTienDien">TÍNH TIỀN</button>
+    <p id="xuatTien"></p>
+
+
+    <!-- MAIN JS -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
